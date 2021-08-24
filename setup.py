@@ -21,6 +21,7 @@ setup(name='live-pandoc',
       ],
       packages=('live_pandoc',),
       install_requires=('watchdog',),
+      include_package_data=True,
       entry_points={
           'console_scripts': ['live-pandoc=live_pandoc.main:main']
       }
