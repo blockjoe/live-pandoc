@@ -7,11 +7,11 @@ with open(os.path.join(dir_, 'README.md'), 'r') as rm:
     README = rm.read()
 
 setup(name='live-pandoc',
-      version='0.1',
+      version='0.1.1',
       description='A program for live rendering a pandoc command',
       long_description=README,
       long_description_content_type="text/markdown",
-      url='http://gitub.com/blockjoe/live-pandoc',
+      url='http://github.com/blockjoe/live-pandoc',
       author='blockjoe',
       author_email='blockjoe46@gmail.com',
       license='MIT',
